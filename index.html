@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon-32x32.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <title>Results Summary Component</title>
+</head>
+
+<body>
+    <div class="result">
+        <div class="result-content">
+            <h2>Your Result</h2>
+
+            <div class="score">
+                <h1>76</h1>
+                <h3>of 100</h3>
+            </div>
+
+            <h1>Great</h1>
+            <p>You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+    </div>
+
+
+    <div class="summary">
+        <div class="summary-content">
+            <h2>Summary</h2>
+            
+            <div class="categories" style="background-color: rgba(255, 87, 87, 0.1);">
+                <div class="category">
+                    <img src="icon-reaction.svg">
+                    <p style="color: rgb(255, 87, 87);">Reaction</p>
+                </div>
+
+                <div class="number">
+                    <p><span class="real">80</span>  <span class="out-of"> /  100</span></p>
+                </div>
+            </div>
+
+            <div class="categories" style="background-color: rgba(255, 176, 31, 0.1)">
+                <div class="category">
+                    <img src="icon-memory.svg">
+                    <p style="color: rgb(255, 176, 31)">Memory</p>
+                </div>
+                <div class="number">
+                    <p><span class="real">92</span>  <span class="out-of"> /  100</span></p>
+                </div>
+            </div>
+            <div class="categories" style="background-color: rgba(0, 189, 145, 0.1);">
+                <div class="category">
+                    <img src="icon-verbal.svg">
+                    <p style="color: rgb(0, 189, 145);">Verbal</p>
+                </div>
+                <div class="number">
+                    <p><span class="real">61</span>  <span class="out-of"> /  100</span></p>
+                </div>
+            </div>
+            <div class="categories" style="background-color: rgba(17, 37, 212, 0.1);">
+                <div class="category">
+                    <img src="icon-visual.svg">
+                    <p style="color: rgb(17, 37, 212);">Visual</p>
+                </div>
+                <div class="number">
+                    <p><span class="real">72</span>  <span class="out-of"> /  100</span></p>
+                </div>
+            </div>
+
+
+            <button>Continue</button>
+            
+        </div>
+    </div>
+</body>
+
+</html>
